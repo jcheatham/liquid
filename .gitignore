@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 _site/
 .sass-cache/
 node_modules/
@@ -39,3 +40,14 @@ node_modules/
 .Trashes
 ehthumbs.db
 Thumbs.db
+=======
+*~
+*.gem
+*.swp
+pkg
+*.rbc
+.rvmrc
+.ruby-version
+Gemfile.lock
+.bundle
+>>>>>>> 5f8086572b5e3f6003d207fed902eee59f1bd03b

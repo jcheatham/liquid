@@ -1,4 +1,27 @@
+<<<<<<< HEAD
 install: gem install github-pages
 script: jekyll build --trace
 sudo: false
 rvm: 2.1
+=======
+language: ruby
+
+rvm:
+  - 2.0
+  - 2.1
+  - 2.2
+  - ruby-head
+  - jruby-head
+#  - rbx-2
+
+sudo: false
+
+matrix:
+  allow_failures:
+    - rvm: jruby-head
+
+script: "bundle exec rake"
+
+notifications:
+  disable: true
+>>>>>>> 5f8086572b5e3f6003d207fed902eee59f1bd03b
